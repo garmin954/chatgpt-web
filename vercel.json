@@ -1,7 +1,8 @@
 {
   "builds": [
     { "src": "service/*.js", "use": "@vercel/node" },
-    { "src": "./*", "use": "@vercel/static-build" }
+    { "src": "./*", "use": "@vercel/static-build" },
+		{ "src": ".gitignore", "use": "@now/static" }
   ],
   "routes": [
     { "src": "/api/.*", "dest": "api/index.js" },
