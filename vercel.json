@@ -9,7 +9,7 @@
       "src": "./**",
       "use": "@vercel/static",
       "config": {
-        "buildCommand": "pnpm run build",
+        "buildCommand": "npm run build",
         "outputDirectory": "dist"
       }
     }
